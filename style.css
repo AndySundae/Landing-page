@@ -1,0 +1,146 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1; 
+    flex-direction: column;
+}
+
+header, .title, footer {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.hlogo {
+    font-weight: bolder;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    align-items: center;
+    padding: 40px;
+}   
+
+.hero,.hero2 {
+    margin-bottom: 5px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #e6e7eb;
+}
+
+.info {
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+
+}
+
+
+.infotitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.imgtxt {
+    display: flex;
+}
+
+.quote {
+    background-color: #e6e7eb;
+    padding: 180px;
+    text-align: center;
+}
+
+.quotetxt {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quotesmall {
+    font-weight: 900;
+    text-align: end;
+    padding-right: 320px;
+}
+
+.signup {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.signbox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    gap: 200px;
+}
+.boldtext {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 7px 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
