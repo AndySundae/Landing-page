@@ -30,13 +30,15 @@ header {
 .title {
     display: flex;
     justify-content: center;
-    gap: 180px;
+    gap: 110px;
     align-items: center;
-    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 160px;
 }   
 
 .hero,.hero2 {
     margin-bottom: 5px;
+    display: flex;
 }
 
 .hero {
@@ -50,6 +52,11 @@ header {
     color: #e6e7eb;
 }
 
+.herobox {
+    background-color: #7d858e;
+    padding: 100px 140px;
+}
+
 .info {
 
     
@@ -58,11 +65,15 @@ header {
 .container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    padding: 100px;
+    gap: 15px;
 }
 
 .text {
-
+    color: #525252;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -77,6 +88,17 @@ header {
 
 .imgtxt {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: #3882F6;
+    background-color: white;
+    padding: 90px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .quote {
@@ -101,6 +123,7 @@ header {
     padding: 100px;
     display: flex;
     justify-content: center;
+    
 }
 
 .signbox {
@@ -130,6 +153,10 @@ button {
     background-color: #3882F6;
     border-radius: 7px;
     padding: 7px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: none;
+    border: 1px solid #0055cc;
 }
 
 a {
