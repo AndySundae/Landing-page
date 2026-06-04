@@ -30,7 +30,7 @@ header {
 .title {
     display: flex;
     justify-content: center;
-    gap: 110px;
+    gap: 70px;
     align-items: center;
     padding-top: 80px;
     padding-bottom: 160px;
@@ -50,11 +50,14 @@ header {
 .hero2 {
     font-size: 18px;
     color: #e6e7eb;
+
 }
 
 .herobox {
     background-color: #7d858e;
     padding: 100px 140px;
+    color: white;
+    font-size: 18px;
 }
 
 .info {
@@ -65,15 +68,15 @@ header {
 .container {
     display: flex;
     justify-content: center;
-    padding: 100px;
-    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    gap: 40px;
 }
 
 .text {
     color: #525252;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
 }
 
 
@@ -99,24 +102,29 @@ header {
     border-width: 4px;
     border-style: solid;
     border-radius: 20px;
+
 }
 
 .quote {
     background-color: #e6e7eb;
-    padding: 180px;
-    text-align: center;
+    padding: 160px;
+    
 }
 
 .quotetxt {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    font-style: italic;
+    width: 830px; 
+    margin-left: 380px;
 }
 
 .quotesmall {
     font-weight: 900;
     text-align: end;
-    padding-right: 320px;
+    font-size: 25px;
+    padding-right: 400px;
 }
 
 .signup {
@@ -148,7 +156,7 @@ footer {
     padding: 25px;
 }
 
-button {
+button, #buttonbottom {
     color: white;
     background-color: #3882F6;
     border-radius: 7px;
@@ -157,6 +165,10 @@ button {
     font-size: 16px;
     text-shadow: none;
     border: 1px solid #0055cc;
+}
+
+#buttonbottom {
+    border: 2px solid #ffffff;
 }
 
 a {
